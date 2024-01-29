@@ -33,7 +33,7 @@ this is particularly useful when working with [gin](https://github.com/gin-gonic
 ## How to use
 To intall `paramgen`:
 ```shell
-go install https://github.com/superjcd/paramgen
+go install github.com/superjcd/paramgen
 ```
 
 Put a notation above the struct declaration, just like:
