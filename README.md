@@ -36,9 +36,12 @@ To intall `paramgen`:
 go install github.com/superjcd/paramgen
 ```
 
-Put a notation above the struct declaration, just like:
+Put a notation at the top of model  declaration file, just like:
 ```
 //go:generate  paramgen
+
+package model
+
 type User struct {
 	gorm.Model
 	Name     string
